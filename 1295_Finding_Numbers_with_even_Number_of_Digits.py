@@ -4,4 +4,5 @@ class Solution:
         for i in nums:
             if (len(str(i))%2)==0:
                 count+=1
+                #count=count+1   this is slower
         return count
